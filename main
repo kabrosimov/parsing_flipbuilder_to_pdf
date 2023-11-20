@@ -20,6 +20,8 @@ def main():
     for i in range(1, 17, 1):
         url = f"https://static.flipbuilder.com/demo/brochure/federation-university/files/mobile/{i}.jpg?200525171459"
         get_data(url, i)
+    create_pdf_1()
+    create_pdf_2()
 
 
 def create_pdf_1():
@@ -43,5 +45,3 @@ def create_pdf_2():
 
 if __name__ == '__main__':
     main()
-    create_pdf_1()
-    create_pdf_2()
